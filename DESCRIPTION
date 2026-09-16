@@ -10,9 +10,12 @@ Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
     stringr
 URL: https://github.com/jordanea2024-beep/regexcite
 BugReports: https://github.com/jordanea2024-beep/regexcite/issues
+VignetteBuilder: knitr
